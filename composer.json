@@ -1,0 +1,24 @@
+{
+    "name": "ashrafmansy/job-profile-exporter",
+    "description": "job profile exporter with google job search format.",
+    "keywords": ["job_profile", "google_job_profile"],
+    "license": "0BSD",
+    "authors": [
+        {
+            "name": "Ashraf Mansy",
+            "email": "ashrafkotb1992@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "ashrafmansy\\JobProfileExporter\\": "src/"
+        }
+    }
+}
